@@ -20,7 +20,6 @@
 	}
 
 	.header-title {
-		order: 0;
 		margin-bottom: 5px;
 	    text-align: left;
 	    text-transform: uppercase;
@@ -45,8 +44,12 @@
 		display: inline;
 	}
 
-	.main-image {
-		display: none;
+	.main {
+		order: 1;
+	}
+
+	.text-overlay {
+		font-size: 1.25em;
 	}
 
 	.project-header h2 {
@@ -92,7 +95,7 @@
 	}
 
 	.header-title {
-		padding-bottom: 0px;
+		padding-bottom: 0;
 	}
 	.header-title h1 {
 		display: inline;
@@ -107,6 +110,17 @@
 
 	.header-title h5 {
 		display: none;
+	}
+
+	.main-image {
+		display: block;
+		position: relative;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.text-overlay {
+		font-size: 0.75em;
 	}
 
 }
@@ -127,9 +141,13 @@
 
 	.project-header h2 {
 		width: 66%;
-		margin: 0px auto;
+		margin: 0 auto;
 		text-align: right;
 		font-size: 1em;
+	}
+
+	.text-overlay {
+		font-size: 0.75em;
 	}
 
 	.project h3 {
