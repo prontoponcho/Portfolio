@@ -1,0 +1,164 @@
+/*Remove before submitting*/
+* {
+/*    border: 1px solid red;*/
+}
+
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+html, body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
+
+div, img {
+	width: 100%;
+}
+
+h1, h2, h3, h4, a {
+    font-family: 'Lato', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+.grid {
+    margin: 10px auto;
+    padding: 5px;
+    max-width: 1150px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-4 {
+	width: 33.32%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-11 {
+	width: 91.67%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+/* 
+ * HEADER 
+*/
+
+.header {
+	border-bottom: 3px solid #7d97ad;
+}
+
+.header-logo {
+    font-size: 6em;
+    color: #02b3e4;
+}
+
+
+.header-title {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.header-title h1 {
+	margin-bottom: 0;
+	font-size: 3em;
+}
+
+.header-title h4 {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	font-size: 1.5em;
+}
+
+/*mini logo*/
+.header-title h5 {
+	display: none;
+}
+
+.header-logo:hover {
+    width: 1em;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+/*@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }*/
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+/* 
+ * MAIN
+*/
+
+/* 
+ * PROJECTS
+*/
+
+.project-header h2 {
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	font-size: 1.75em;
+	color: #7d97ad;
+}
+
+
+.projects {
+	display: block;
+}
+
+
+.project-list {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.project {
+	width: calc((100% - 40px)/3);
+	margin-right: 20px;
+	text-align: center;
+}
+
+.project:last-of-type {
+	margin-right: 0px;
+}
+
+.url-english {
+	display: none;
+}
+
+.project h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1.75em;
+	text-transform: uppercase;
+}
+

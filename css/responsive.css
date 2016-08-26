@@ -1,0 +1,182 @@
+@media screen and (max-width: 1000px) {
+	.url-english {
+		display: inline;
+	}
+
+	.url {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 899px) {
+
+	.grid {
+		padding: 20px;
+	}
+
+	.header-logo {
+		display: none;
+	}
+
+	.header-title {
+		order: 0;
+		margin-bottom: 5px;
+	    text-align: left;
+	    text-transform: uppercase;
+	}
+
+	.header-title h1 {
+		margin-bottom: 0;
+		font-size: 2em;
+		display: inline;
+	}
+
+	.header-title h5 {
+		color: #02b3e4;
+		font-weight: 100;
+		font-size: 1.5em;
+		display: inline;
+	}
+
+	.header-title h4 {
+		margin-bottom: 0;
+		font-size: 1em;
+		display: inline;
+	}
+
+	.main-image {
+		display: none;
+	}
+
+	.project-header h2 {
+		width: 66%;
+		margin: 10px auto;
+		text-align: right;
+		margin-bottom: 10px;
+		letter-spacing: 2px;
+		font-size: 1.5em;
+	}
+
+	.project-list {
+		display: flex;
+		flex-flow: column wrap;
+	}
+
+	.project {
+		width: 66%;
+		margin: 10px auto;
+		text-align: center;
+	}
+
+	.project:last-of-type {
+		margin: 10px auto;
+	}
+
+	.project h3 {
+		display: inline;
+	}
+
+}
+
+@media screen and (max-width: 587px) {
+
+	.row {
+		margin-bottom: 10px;
+	}
+	.header-logo {
+		display: inline;
+		order: 1;
+		font-size: 2em;
+		margin-bottom: 5px;
+	}
+
+	.header-title {
+		padding-bottom: 0px;
+	}
+	.header-title h1 {
+		display: inline;
+		order: 0;
+		font-size: 2em;
+		vertical-align: bottom;
+	}
+
+	.header-title h4 {
+		display: none;
+	}	
+
+	.header-title h5 {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 450px) {	
+
+	.header {
+		align-items: flex-end;
+	}
+
+	.header-title h1 {
+		font-size: 1.5em;
+	}
+
+	.header-logo {
+		font-size: 1.5em;
+	}
+
+	.project-header h2 {
+		width: 66%;
+		margin: 0px auto;
+		text-align: right;
+		font-size: 1em;
+	}
+
+	.project h3 {
+		font-size: 1em;
+	}
+
+	.project a {
+		font-size: 0.75em;
+	}
+
+	.project {
+		margin: 5px auto;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 350px) {	
+
+	.header {
+		justify-content: center;
+	}
+
+	.header-title {
+		text-align: center;
+		width: 100%;
+	}
+
+	.header-title h1 {
+		font-size: 1em;
+	}
+
+	.header-logo {
+		display: none;
+	}
+
+	.project-header h2 {
+		margin-bottom: 5px;
+		letter-spacing: 2px;
+		font-size: 0.75em;
+	}
+
+	.project h3 {
+		font-size: 0.6em;
+	}
+
+	.project a {
+		font-size: 0.6em;
+	}
+
+}
